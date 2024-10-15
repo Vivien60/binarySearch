@@ -1,6 +1,8 @@
-First commit, for my numberGameSimulator implementing binary searching as a game simulator.
+Just work on binary searching.
 
-numberGameSimulator is intended to be uses in PHP CLI.
+numberGameSimulator is implementing binary searching as a game simulator.
+
+It's intended to be uses in PHP CLI.
 
 Usage :
 php numberGameSimulator.php [minNumber] [maxNumber] [maxTries] [numberToFind]
