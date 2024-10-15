@@ -1,6 +1,6 @@
 Just work on binary searching.
 
-numberGameSimulator is implementing binary searching as a game simulator.
+numberGameSimulator implements binary searching as a game simulator.
 
 It's intended to be uses in PHP CLI.
 
