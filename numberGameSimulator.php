@@ -46,19 +46,17 @@ function printUsage()
 function checkUsage()
 {
     global $argc;
-    var_dump($argc);
     return $argc == 5;
 }
 
-var_dump($argc);
 if(!checkUsage()){
     printUsage();
     exit;
 }
-$min = $argv[1];
-$max = $argv[2];
-$maxGuesses = $argv[3];
-$numberToFind = $argv[4];
+$min = intval($argv[1]);
+$max = intval($argv[2]);
+$maxGuesses = intval($argv[3]);
+$numberToFind = intval($argv[4]);
 
 $start = microtime(true);
 $finder = new NumberFinder($min, $max);
